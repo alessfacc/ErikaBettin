@@ -99,6 +99,7 @@ h1, h2, h3, h4, h4, h5, h6 {
     display: block;
     padding: 15px;
     color: white;
+    border-radius: 5px;
     text-decoration: none;
 }
 .menu__link:hover { 
