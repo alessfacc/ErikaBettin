@@ -42,6 +42,7 @@ h1, h2, h3, h4, h4, h5, h6 {
     position: absolute;
     left: 40px;
     top: 20px;
+    display: none;
 }
 
 /*----------------------Estilos del menu---------------------*/
@@ -140,9 +141,9 @@ h1, h2, h3, h4, h4, h5, h6 {
     text-align: left;
     position: absolute;
     z-index: 1500;
-    top: 36%;
+    top: 17%;
     left: 7%;
-    font-size: 1.5em;
+    font-size: 2.2em;
     font-weight: bold;
 }
 .banner__content--text { 
@@ -153,14 +154,13 @@ h1, h2, h3, h4, h4, h5, h6 {
     text-align: left;
     position: absolute;
     z-index: 1500;
-    top: 45%;
+    top: 25%;
     left: 5%;
     font-family: 'Indie Flower', cursive;
 }
 .btn--leer { 
     position: absolute;
     left: 5%;
-    
 }
 
 /*--------------------Estilos principales--------------------*/
@@ -233,6 +233,18 @@ h1, h2, h3, h4, h4, h5, h6 {
 }
 
 /*---------------Estilos responsive---------------------*/
+
+@media screen and (min-width:550px){ 
+    .logo-container { 
+        display: flex;
+    }
+    .banner__content--text{ 
+        top: 38%;
+    }
+    .banner__content{ 
+        top: 30%;
+    }
+}
 
 
 @media screen and (min-width:768px){   
