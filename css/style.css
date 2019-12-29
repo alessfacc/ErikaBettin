@@ -167,6 +167,13 @@ h1, h2, h3, h4, h4, h5, h6 {
 /*--------------------Estilos principales--------------------*/
 
 
+.group__title { 
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 30px;
+    font-size:2em;
+    text-align: center;
+}
+
 .group--color .container { 
     background: #B3B16F;
     color: white;
@@ -181,13 +188,13 @@ h1, h2, h3, h4, h4, h5, h6 {
 }
 .column__text { 
     font-family: 'Indie Flower', cursive;
-    text-align: left
+    text-align: left;
 }
 .btn { 
     display: block;
     text-align: center;
     text-decoration: none;
-    width: 120px;
+    width: 140px;
     background: white;
     color: #B3B16F;
     padding: 10px;
