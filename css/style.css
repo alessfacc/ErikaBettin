@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Public Sans', sans-serif;
     margin: 0;
 }
 /*----------------------------Estilos base--------------------*/
@@ -157,10 +157,11 @@ h1, h2, h3, h4, h4, h5, h6 {
     z-index: 1500;
     top: 25%;
     left: 5%;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Public Sans', sans-serif;
 }
 .btn--leer { 
     position: absolute;
+    font-size: 0.8em;
     left: 5%;
 }
 
@@ -168,7 +169,7 @@ h1, h2, h3, h4, h4, h5, h6 {
 
 
 .group__title { 
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Public Sans', sans-serif;
     padding: 30px;
     font-size:2em;
     text-align: center;
@@ -187,7 +188,7 @@ h1, h2, h3, h4, h4, h5, h6 {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 .column__text { 
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Public Sans', sans-serif;
     text-align: left;
 }
 .btn { 
