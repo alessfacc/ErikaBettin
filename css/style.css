@@ -35,20 +35,18 @@ h1, h2, h3, h4, h4, h5, h6 {
     width: 100%;
 }
 .logo {
-    width: 300px;
+    width: 270px;
     padding: 0px 0px 0px 30px;
     font-family: 'Bad Script', cursive;
     text-decoration: none;
     font-size: 2.3em;
     color: white;
-    font-weight: ;
 }
 .logo-container { 
     z-index:3000;
     position: absolute;
     left: 40px;
     top: 20px;
-    display: none;
     text-decoration: none;
 }
 
@@ -66,7 +64,7 @@ h1, h2, h3, h4, h4, h5, h6 {
 }
 .icon-menu {
     display: block;
-    color: #B3B16F;
+    color: #7F7F54;
     cursor: pointer;
 }
 .social-icon {
@@ -83,7 +81,7 @@ h1, h2, h3, h4, h4, h5, h6 {
     font-size: 1.3em;
     width: 35px;
     height: 35px;
-    background: #B3B16F;
+    background: #7F7F54;
     border-radius: 50%;
 }
 .social-icon__link { 
@@ -111,10 +109,11 @@ h1, h2, h3, h4, h4, h5, h6 {
     text-decoration: none;
 }
 .menu__link:hover { 
-    background: #B3B16F;
+    transition: 0.5s;
+    background: #7F7F54;
 }
 .menu__link--select { 
-    background: #B3B16F;
+    background: #7F7F54;
     
 }
 .mostrar { 
@@ -187,7 +186,7 @@ h1, h2, h3, h4, h4, h5, h6 {
 }
 
 .group--color .container { 
-    background: #B3B16F;
+    background: #7F7F54;
     color: white;
     padding: 30px;
     text-align: center;
@@ -207,7 +206,7 @@ h1, h2, h3, h4, h4, h5, h6 {
     text-decoration: none;
     width: 140px;
     background: white;
-    color: #B3B16F;
+    color: #7F7F54;
     padding: 10px;
     margin: 10px auto;
     font-family: 'Bad Script', cursive;
@@ -255,8 +254,22 @@ h1, h2, h3, h4, h4, h5, h6 {
 
 /*---------------Estilos responsive---------------------*/
 
-@media screen and (min-width:550px){ 
+@media screen and (max-width:400px){ 
+    .logo { 
+        text-align: center;
+    }
+    .social-icon { 
+        display: none;
+    }
+}
 
+@media screen and (max-width:450px){ 
+    .logo { 
+        padding: 0px;
+    }
+}
+
+@media screen and (min-width:550px){ 
     .logo-container { 
         display: flex;
     }
@@ -290,7 +303,9 @@ h1, h2, h3, h4, h4, h5, h6 {
     .main__img { 
         height: 450px;
     }
-    
+    .main__about__description .column__text { 
+        font-size: 1.1em;
+    }
 }
 
 @media screen and (min-width:1025px){
@@ -312,6 +327,12 @@ h1, h2, h3, h4, h4, h5, h6 {
     .logo-container { 
         left: 0px;
         max-width: 350px;
+    }
+    .main-footer { 
+        font-size: 1em;
+    }
+    .main__about__description { 
+        font-size: 1em;
     }
 }
 
