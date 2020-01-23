@@ -217,6 +217,14 @@ h1, h2, h3, h4, h4, h5, h6 {
     padding: 20px;
 }
 
+.text_foto { 
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: -20px;
+    font-size: 0.8em;
+}
+
 /*----------------Estilos del footer-------------------*/
 
 .main-footer { 
@@ -260,6 +268,13 @@ h1, h2, h3, h4, h4, h5, h6 {
     }
     .social-icon { 
         display: none;
+    }
+    .icon-menu {
+        position: relative;
+        top: 15px;
+    }
+    .main-nav {
+        height: 70px;
     }
 }
 
