@@ -64,7 +64,7 @@ h1, h2, h3, h4, h4, h5, h6 {
 }
 .icon-menu {
     display: block;
-    color: #7F7F54;
+    color: #4f2685;
     cursor: pointer;
 }
 .social-icon {
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h4, h5, h6 {
     font-size: 1.3em;
     width: 35px;
     height: 35px;
-    background: #7F7F54;
+    background: #4f2685;
     border-radius: 50%;
 }
 .social-icon__link {
@@ -110,10 +110,10 @@ h1, h2, h3, h4, h4, h5, h6 {
 }
 .menu__link:hover {
     transition: 0.5s;
-    background: #7F7F54;
+    background: #4f2685;
 }
 .menu__link--select {
-    background: #7F7F54;
+    background: #4f2685;
 
 }
 .mostrar {
@@ -163,7 +163,7 @@ h1, h2, h3, h4, h4, h5, h6 {
     text-align: left;
     position: absolute;
     z-index: 1500;
-    top: 35%;
+    top: 25%;
     left: 5%;
     font-family: 'Bad Script', cursive;
 }
@@ -186,7 +186,7 @@ h1, h2, h3, h4, h4, h5, h6 {
 }
 
 .group--color .container {
-    background: #7F7F54;
+    background: #4f2685;
     color: white;
     padding: 30px;
     text-align: center;
