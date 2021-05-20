@@ -44,7 +44,7 @@ h1, h2, h3, h4, h4, h5, h6 {
 }
 .logo-container {
     z-index:3000;
-    position: absolute;
+    position: fixed;
     left: 40px;
     top: 20px;
     text-decoration: none;
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h4, h5, h6 {
 
 .main-nav {
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 20px;
     z-index: 2000;
     padding: 10px;
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h4, h5, h6 {
 }
 .icon-menu {
     display: block;
-    color: #4f2685;
+    color: #b79aed;
     cursor: pointer;
 }
 .social-icon {
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h4, h5, h6 {
     font-size: 1.3em;
     width: 35px;
     height: 35px;
-    background: #4f2685;
+    background: #b79aed;
     border-radius: 50%;
 }
 .social-icon__link {
@@ -113,11 +113,11 @@ h1, h2, h3, h4, h4, h5, h6 {
     background: #4f2685;
 }
 .menu__link--select {
-    background: #4f2685;
+    background: #b79aed;
 
 }
 .mostrar {
-    height: 294px;
+    height: 343px;
 }
 
 /*--------------------Estilo de banner----------------------*/
@@ -156,7 +156,6 @@ h1, h2, h3, h4, h4, h5, h6 {
     font-family: 'Bad Script', cursive;
 }
 .banner__content--text {
-    width: 90%;
     color: white;
     padding: 10px;
     width: 50%;
@@ -170,11 +169,6 @@ h1, h2, h3, h4, h4, h5, h6 {
 .banner__content .banner__content--text main__txt{
     font-size: 2em;
 }
-.btn--leer {
-    position: absolute;
-    font-size: 1em;
-    left: 5%;
-}
 
 /*--------------------Estilos principales--------------------*/
 
@@ -186,7 +180,7 @@ h1, h2, h3, h4, h4, h5, h6 {
 }
 
 .group--color .container {
-    background: #4f2685;
+    background: #2c1f45;
     color: white;
     padding: 30px;
     text-align: center;
@@ -206,7 +200,7 @@ h1, h2, h3, h4, h4, h5, h6 {
     text-decoration: none;
     width: 140px;
     background: white;
-    color: #7F7F54;
+    color: #4f2685;
     padding: 10px;
     margin: 10px auto;
     font-family: 'Bad Script', cursive;
@@ -218,7 +212,7 @@ h1, h2, h3, h4, h4, h5, h6 {
 }
 
 .text_foto {
-    padding: 0px;
+    padding: 10px;
     margin: 0px;
     position: relative;
     top: -20px;
