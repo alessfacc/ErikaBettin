@@ -348,6 +348,27 @@ input[name="r"]{
   margin-left: -90%;
 }
 
+input[name="a"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+#a1:checked ~ .s1{
+  margin-left: 0;
+}
+#a2:checked ~ .s1{
+  margin-left: -10%;
+}
+#a3:checked ~ .s1{
+  margin-left: -20%;
+}
+#a4:checked ~ .s1{
+  margin-left: -30%;
+}
+#a5:checked ~ .s1{
+  margin-left: -40%;
+}
+
 /*---------------Estilos responsive---------------------*/
 
 @media screen and (max-width:400px){
