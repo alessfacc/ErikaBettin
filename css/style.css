@@ -412,6 +412,10 @@ input[name="a"]{
         display: none;
     }
 
+	.banner__content--text{
+        top: 13%;
+    }
+
 }
 
 @media screen and (min-width:550px){
@@ -420,7 +424,7 @@ input[name="a"]{
         display: flex;
     }
     .banner__content--text{
-        top: 38%;
+        top: 32%;
     }
     .banner__content{
         top: 30%;
