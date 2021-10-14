@@ -226,6 +226,11 @@ h1, h2, h3, h4, h4, h5, h6 {
         padding: 0;
     }
 
+.event__container {
+	
+}
+
+
 /*----------------Estilos del footer-------------------*/
 
 .main-footer {
@@ -369,6 +374,59 @@ input[name="a"]{
 #a5:checked ~ .s1{
   margin-left: -40%;
 }
+
+input[name="b"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+#b1:checked ~ .s1{
+  margin-left: 0;
+}
+#b2:checked ~ .s1{
+  margin-left: -10%;
+}
+#b3:checked ~ .s1{
+  margin-left: -20%;
+}
+
+
+
+/*---------------Estilos Eventi-----------------*/
+/*
+img{
+	width: 100%;
+}
+
+.event-post{
+	width: 100%;
+	max-width: 98rem;
+	padding: 5rem;
+	background-color: #fff;
+	box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
+	display: flex;
+	align-items: center;
+	border-radius: .8rem;
+}
+
+.event-post___img {
+	min-width: 35rem;
+	max-width: 35rem;
+	height: 30rem;
+	transform: translateX(-8rem);
+	position: relative;
+}
+
+
+.event-post__img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	border-radius: .8rem;
+}
+*/
+
 
 /*---------------Estilos responsive---------------------*/
 
