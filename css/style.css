@@ -193,7 +193,7 @@ h1, h2, h3, h4, h4, h5, h6 {
 	 line-height: 50px;
 }
 .column__text {
-    text-align: left;
+    text-align: justify;
 }
 .btn {
     display: block;
