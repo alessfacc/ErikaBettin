@@ -46,7 +46,7 @@ h1, h2, h3, h4, h4, h5, h6 {
     z-index:3000;
     position: fixed;
     left: 40px;
-    top: 20px;
+    top: 0px;
     text-decoration: none;
 }
 
@@ -56,10 +56,10 @@ h1, h2, h3, h4, h4, h5, h6 {
 .main-nav {
     width: 100%;
     position: fixed;
-    top: 20px;
+    top: 0px;
     z-index: 2000;
-    padding: 10px;
-    background: rgba(0,0,0,.75);
+    padding: 12px;
+    background: rgba(0,0,0,1);
     font-family: 'Public Sans', sans-serif;
 }
 .icon-menu {
@@ -89,7 +89,7 @@ h1, h2, h3, h4, h4, h5, h6 {
 }
 .menu {
     position: absolute;
-    top: 55px;
+    top: 0;
     left: 0;
     width: 100%;
     background: rgba(0,0,0,.75);
@@ -536,11 +536,11 @@ img{
         width: 49%;
     }
     .banner__content {
-        font-size: 2em;
+        font-size: 3em;
     }
     .banner__content--text {
-        font-size: 1.2em;
-        line-height: 25px;
+        font-size: 1.4em;
+        line-height: 30px;
     }
     .column__title {
         font-size: 2.2em;
