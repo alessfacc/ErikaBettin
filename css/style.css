@@ -189,11 +189,13 @@ h1, h2, h3, h4, h4, h5, h6 {
 .column__title {
     margin: 15px 0;
     font-size:1.8em;
-    font-family: 'Bad Script', cursive;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+
 	 line-height: 50px;
 }
 .column__text {
     text-align: justify;
+	font-family: 'Helvetica', 'Arial', sans-serif;
 }
 .btn {
     display: block;
@@ -205,11 +207,13 @@ h1, h2, h3, h4, h4, h5, h6 {
     padding: 10px;
     margin: 10px auto;
     font-family: 'Bad Script', cursive;
+	border-radius: 5px;
 }
 .main__img {
     height: 300px;
     object-fit: cover;
     padding: 20px;
+	border-radius: 5%;
 }
 
 .text_foto {
@@ -259,12 +263,11 @@ h1, h2, h3, h4, h4, h5, h6 {
 }
 
 .column--footer{
-    width: 49%
+    width: 100%;
+	text-align: center;
 }
 
-.main-footer .column:nth-child(2) {
-    text-align: right;
-}
+
 
 /*---------------Estilos slider shop ---------------------*/
 
