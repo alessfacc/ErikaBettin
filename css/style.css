@@ -209,6 +209,18 @@ h1, h2, h3, h4, h4, h5, h6 {
     font-family: 'Bad Script', cursive;
 	border-radius: 5px;
 }
+.btn_shop {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 400px;
+    background: white;
+    color: #4f2685;
+    padding: 10px;
+    margin: 10px auto;
+    font-family: 'Bad Script', cursive;
+	border-radius: 5px;
+}
 .main__img {
     height: 300px;
     object-fit: cover;
