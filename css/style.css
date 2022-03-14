@@ -243,7 +243,7 @@ h1, h2, h3, h4, h4, h5, h6 {
     }
 
 .event__container {
-	
+
 }
 
 
@@ -572,7 +572,7 @@ img{
     }
 }
 
-@media screen and (min-width:1025px){
+@media screen and (min-width:1150px){
     .icon-menu {
         display: none;
     }
