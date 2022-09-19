@@ -342,40 +342,40 @@ input[name="r"]{
   margin-left: 0;
 }
 #r2:checked ~ .s1{
-  margin-left: -7.7%;
+  margin-left: -8.3%;
 }
 #r3:checked ~ .s1{
-  margin-left: -15.4%;
+  margin-left: -16.6%;
 }
 #r4:checked ~ .s1{
-  margin-left: -23.1%;
+  margin-left: -24.9%;
 }
 #r5:checked ~ .s1{
-  margin-left: -30.1%;
+  margin-left: -33.2%;
 }
 #r6:checked ~ .s1{
-  margin-left: -38.5%;
+  margin-left: -41.5%;
 }
 #r7:checked ~ .s1{
-  margin-left: -46.2%;
+  margin-left: -49.8%;
 }
 #r8:checked ~ .s1{
-  margin-left: -53.9%;
+  margin-left: -58.1%;
 }
 #r9:checked ~ .s1{
-  margin-left: -61.6%;
+  margin-left: -66.4%;
 }
 #r10:checked ~ .s1{
-  margin-left: -69.3%;
+  margin-left: -74.7%;
 }
 #r11:checked ~ .s1{
-  margin-left: -77%;
+  margin-left: -83%;
 }
 #r12:checked ~ .s1{
-  margin-left: -84.7%;
+  margin-left: -91.3%;
 }
 #r13:checked ~ .s1{
-  margin-left: -92.4%;
+  margin-left: -99.6%;
 }
 
 
